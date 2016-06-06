@@ -11,7 +11,8 @@ $game->add_player( ['id'=>'3', 'name' => 'Jane'] );
 // $game->add_player( ['id'=>'5', 'name' => 'Bill'] );
 // $game->add_player( ['id'=>'6', 'name' => 'Lacy'] );
 $game->deck->deal();
-// $game->display_hands();
+$game->display_hands();
+// die();
 
 $adam->display();
 foreach($adam->hand->cards as $c){
